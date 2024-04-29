@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WxEditor", "WxEditor.csproj", "{A32C0F4B-C666-CE95-7304-E29CF50AA080}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wx", "Wx.csproj", "{CEAB3528-FDCC-5D46-D602-7C039108E3FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A32C0F4B-C666-CE95-7304-E29CF50AA080}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A32C0F4B-C666-CE95-7304-E29CF50AA080}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A32C0F4B-C666-CE95-7304-E29CF50AA080}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A32C0F4B-C666-CE95-7304-E29CF50AA080}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEAB3528-FDCC-5D46-D602-7C039108E3FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEAB3528-FDCC-5D46-D602-7C039108E3FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEAB3528-FDCC-5D46-D602-7C039108E3FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEAB3528-FDCC-5D46-D602-7C039108E3FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,2313 @@
+Unity Editor version:    2022.3.26f1 (ec6cd8118806)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 10.15.7 (Build 19H2)
+Darwin version:          19.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.26f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/caizhengyang/My project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64288
+Successfully changed project path to: /Users/caizhengyang/My project
+/Users/caizhengyang/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [4545818048] Host "[IP] 10.50.20.36 [Port] 0 [Flags] 2 [Guid] 2779767639 [EditorId] 2779767639 [Version] 1048832 [Id] OSXEditor(0,caizhengyangdeMacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [4545818048] Host "[IP] 10.50.20.36 [Port] 0 [Flags] 2 [Guid] 2779767639 [EditorId] 2779767639 [Version] 1048832 [Id] OSXEditor(0,caizhengyangdeMacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
+Refreshing native plugins compatible for Editor in 124.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.26f1 (ec6cd8118806)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.26f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/caizhengyang/My project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: Intel(R) UHD Graphics 617 (low power)
+Metal devices available: 1
+0: Intel(R) UHD Graphics 617 (low power)
+Using device Intel(R) UHD Graphics 617 (low power)
+Initializing Metal device caps: Intel(R) UHD Graphics 617
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.26f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.26f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.26f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56269
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.26f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.26f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.016224 seconds.
+- Loaded All Assemblies, in  2.223 seconds
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.338 seconds
+Domain Reload Profiling: 3562ms
+	BeginReloadAssembly (544ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (4ms)
+	RebuildCommonClasses (237ms)
+	RebuildNativeTypeToScriptingClass (74ms)
+	initialDomainReloadingComplete (296ms)
+	LoadAllAssembliesAndSetupDomain (1070ms)
+		LoadAssemblies (544ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1060ms)
+			TypeCache.Refresh (1051ms)
+				TypeCache.ScanAssembly (995ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (1340ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1042ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (39ms)
+			SetLoadedEditorAssemblies (25ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (14ms)
+			ProcessInitializeOnLoadAttributes (755ms)
+			ProcessInitializeOnLoadMethodAttributes (208ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.270 seconds
+Refreshing native plugins compatible for Editor in 27.43 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.775 seconds
+Domain Reload Profiling: 4046ms
+	BeginReloadAssembly (483ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (86ms)
+	RebuildCommonClasses (158ms)
+	RebuildNativeTypeToScriptingClass (34ms)
+	initialDomainReloadingComplete (98ms)
+	LoadAllAssembliesAndSetupDomain (1496ms)
+		LoadAssemblies (1069ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (733ms)
+			TypeCache.Refresh (627ms)
+				TypeCache.ScanAssembly (573ms)
+			ScanForSourceGeneratedMonoScriptInfo (84ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1776ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1333ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (16ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (125ms)
+			ProcessInitializeOnLoadAttributes (1024ms)
+			ProcessInitializeOnLoadMethodAttributes (138ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.26f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 24.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4088 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 112 unused Assets / (247.5 KB). Loaded Objects now: 4511.
+Memory consumption went from 257.3 MB to 257.1 MB.
+Total: 8.363413 ms (FindLiveObjects: 0.480372 ms CreateObjectMapping: 0.476671 ms MarkObjects: 6.768259 ms  DeleteObjects: 0.636001 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1354526.343725 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/images/background.jpg
+  artifactKey: Guid(307b792793e6746e588b920879c1b8c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/images/background.jpg using Guid(307b792793e6746e588b920879c1b8c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbca6928e99056827c6fb506ed538515') in 0.226743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 17.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7 unused Assets / (179.2 KB). Loaded Objects now: 4514.
+Memory consumption went from 192.8 MB to 192.7 MB.
+Total: 9.487854 ms (FindLiveObjects: 0.564072 ms CreateObjectMapping: 0.545740 ms MarkObjects: 8.076527 ms  DeleteObjects: 0.299706 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7 unused Assets / (181.4 KB). Loaded Objects now: 4514.
+Memory consumption went from 193.1 MB to 192.9 MB.
+Total: 6.569569 ms (FindLiveObjects: 0.394824 ms CreateObjectMapping: 0.419462 ms MarkObjects: 5.528722 ms  DeleteObjects: 0.224874 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7 unused Assets / (181.4 KB). Loaded Objects now: 4514.
+Memory consumption went from 193.0 MB to 192.8 MB.
+Total: 6.641600 ms (FindLiveObjects: 0.400050 ms CreateObjectMapping: 0.477434 ms MarkObjects: 5.539038 ms  DeleteObjects: 0.223307 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:2d/spriteatlas-import-mode: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 9.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7 unused Assets / (181.3 KB). Loaded Objects now: 4514.
+Memory consumption went from 193.0 MB to 192.8 MB.
+Total: 13.174025 ms (FindLiveObjects: 0.636077 ms CreateObjectMapping: 0.597575 ms MarkObjects: 11.563130 ms  DeleteObjects: 0.374072 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:2d/spriteatlas-import-mode: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 9.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7 unused Assets / (181.0 KB). Loaded Objects now: 4514.
+Memory consumption went from 193.0 MB to 192.8 MB.
+Total: 7.331639 ms (FindLiveObjects: 0.463333 ms CreateObjectMapping: 0.422557 ms MarkObjects: 6.221076 ms  DeleteObjects: 0.222095 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 97.840703 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/images/background.jpg
+  artifactKey: Guid(307b792793e6746e588b920879c1b8c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/images/background.jpg using Guid(307b792793e6746e588b920879c1b8c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd6091fd476387aa95043ff52121653e') in 0.015396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 29.854200 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ada2d43d29abac6d241be9fd81a94777') in 0.408937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/WebGLTemplates/WXTemplate2020/index.html
+  artifactKey: Guid(0a1dcb5e36001403b96030ff715906fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WebGLTemplates/WXTemplate2020/index.html using Guid(0a1dcb5e36001403b96030ff715906fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8c73180659f5cd011f293324f12ea406') in 0.036584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/WebAES.cs
+  artifactKey: Guid(d9e79ef28f134cfcbafaedb5f052df60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/WebAES.cs using Guid(d9e79ef28f134cfcbafaedb5f052df60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '39d291bb07a0addbce90150eb3fe7568') in 0.186887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/WebGLTemplates/WXTemplate2022TJ/TemplateData/progress-bar-full-dark.png
+  artifactKey: Guid(3c5bec61e56c01543984f432032c7357) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WebGLTemplates/WXTemplate2022TJ/TemplateData/progress-bar-full-dark.png using Guid(3c5bec61e56c01543984f432032c7357) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '58a23c94b606f3c0b7cd77a12c142eb6') in 0.006565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.006960 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/Brotli/win_x86_64/msvcp140_1.dll
+  artifactKey: Guid(713e2b6c25b3540e595a5036bacaedbd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/Brotli/win_x86_64/msvcp140_1.dll using Guid(713e2b6c25b3540e595a5036bacaedbd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '63a1688e29660e354d6cca8eb8c0045f') in 0.068607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002428 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/WXProfileStatsScript.cs
+  artifactKey: Guid(3dab97d40676842bc81d76ab4ff5cfd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/WXProfileStatsScript.cs using Guid(3dab97d40676842bc81d76ab4ff5cfd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '110487dec7c5899f9bb3ccdde438c014') in 0.020847 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/TextureEditor/Node/PVRTexToolCLI.exe
+  artifactKey: Guid(53be097f33ee44043afd3a9a9b37f51a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/TextureEditor/Node/PVRTexToolCLI.exe using Guid(53be097f33ee44043afd3a9a9b37f51a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '51da2b826e3d7e2c7622de74058b734d') in 0.013682 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/WxWasmSDKRuntime.asmdef
+  artifactKey: Guid(5efd170ecd8084500bed5692932fe14e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/WxWasmSDKRuntime.asmdef using Guid(5efd170ecd8084500bed5692932fe14e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '455f8f440acf59dab6b74f2575afc0b3') in 0.024118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/WebGLTemplates/WXTemplate2022/index.html
+  artifactKey: Guid(45677730c25dd48fda3659b7cc95014d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WebGLTemplates/WXTemplate2022/index.html using Guid(45677730c25dd48fda3659b7cc95014d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b966ad196be1fe644398d17221ef2cd5') in 0.004936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.007106 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/Plugins/SDK-Call-JS.jslib
+  artifactKey: Guid(340c9937849614db7bd7a069ff60c77b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/Plugins/SDK-Call-JS.jslib using Guid(340c9937849614db7bd7a069ff60c77b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ed6cf9fa3a1237bc39bbbdef358d1536') in 0.017396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/Plugins/crypto.jspre
+  artifactKey: Guid(71bc98cdcdfd4e059f97a9d2bd913e7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/Plugins/crypto.jspre using Guid(71bc98cdcdfd4e059f97a9d2bd913e7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e7fb70b5b12c744350e52668e43032af') in 0.011249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/Plugins/TCPSocket.jslib
+  artifactKey: Guid(afe54ec7e25b9433f9a6da5d41540ddc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/Plugins/TCPSocket.jslib using Guid(afe54ec7e25b9433f9a6da5d41540ddc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7f9145bd375809c35a6e98acb2d877f4') in 0.015229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/WebGLTemplates/WXTemplate2022TJ/index.html
+  artifactKey: Guid(bc8062036b97bf140ac20cc5e3ecce67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WebGLTemplates/WXTemplate2022TJ/index.html using Guid(bc8062036b97bf140ac20cc5e3ecce67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1cce600fdbf4be2ca9f02cead3fca143') in 0.005265 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/Plugins/MD5.jslib
+  artifactKey: Guid(9250060552104a8388aaff7dc4f4dde7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/Plugins/MD5.jslib using Guid(9250060552104a8388aaff7dc4f4dde7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6b528636d2f577d0d0b07028d03a271a') in 0.013713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/WebGLTemplates/WXTemplate/thumbnail.png
+  artifactKey: Guid(d8a1dcb512f394b7187ac255c4eb2222) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WebGLTemplates/WXTemplate/thumbnail.png using Guid(d8a1dcb512f394b7187ac255c4eb2222) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '504d6490f6f8d7e770917d777b9acbbb') in 0.006480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005326 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/weapp-adapter.js
+  artifactKey: Guid(531bfcfdf40804fbbb2ac6a1bc73d30c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/weapp-adapter.js using Guid(531bfcfdf40804fbbb2ac6a1bc73d30c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4699d374c1a50724bbd492b9432ad9ac') in 0.029378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/TextureEditor/Node/PVRTexToolCLI
+  artifactKey: Guid(6d497916b78134c669342228f6836ff0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/TextureEditor/Node/PVRTexToolCLI using Guid(6d497916b78134c669342228f6836ff0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c1641b5b17cff4111501c7b473c798a4') in 0.006436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.110900 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/TextureEditor/Release/AssetsTools.NET.dll
+  artifactKey: Guid(8c40fadb8821641a18813395e4d7b23f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/TextureEditor/Release/AssetsTools.NET.dll using Guid(8c40fadb8821641a18813395e4d7b23f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '552ef4886e408b14fa9e9d43a9648ead') in 0.218492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/TextureEditor/Release/Mono.Cecil.Mdb.dll
+  artifactKey: Guid(3d6e54874174a442dac95a8908b3449a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/TextureEditor/Release/Mono.Cecil.Mdb.dll using Guid(3d6e54874174a442dac95a8908b3449a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '520b5b6b94ca1ed6de0c18411f6cb53a') in 0.012201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/TextureEditor/Node/astcenc-avx2
+  artifactKey: Guid(8b67e6c263812432b84963c0556881bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/TextureEditor/Node/astcenc-avx2 using Guid(8b67e6c263812432b84963c0556881bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '161d4b8eeaf8fc929a758735c053b16a') in 0.005006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/HideLoadingPage.cs
+  artifactKey: Guid(c209e0053cc1f462680a6855c0b6ae45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/HideLoadingPage.cs using Guid(c209e0053cc1f462680a6855c0b6ae45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a90240fb8aa0566c8123856189a9cc12') in 0.010981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/Plugins/UDPSocket.jslib
+  artifactKey: Guid(1be2e6c9f9cdc42e68ecb97007669776) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/Plugins/UDPSocket.jslib using Guid(1be2e6c9f9cdc42e68ecb97007669776) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd3884377b230316551e662fcbd0d379e') in 0.031816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/Brotli/win_x86_64/msvcp140_2.dll
+  artifactKey: Guid(250ffb10dd8854b5d8b5d31a7f9afd14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/Brotli/win_x86_64/msvcp140_2.dll using Guid(250ffb10dd8854b5d8b5d31a7f9afd14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e6c8378f71152f91f363080a41b8bb10') in 0.008580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/Node/dump_wasm_symbol.mjs
+  artifactKey: Guid(e5abb6c95bc17485f832ec3d792e39c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/Node/dump_wasm_symbol.mjs using Guid(e5abb6c95bc17485f832ec3d792e39c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0121b7d89d0243580cc3290c52fca6ef') in 0.030779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/WebGLTemplates/WXTemplate2022TJ/TemplateData/style.css
+  artifactKey: Guid(748c914819af7bd468df4c18f48aa7f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WebGLTemplates/WXTemplate2022TJ/TemplateData/style.css using Guid(748c914819af7bd468df4c18f48aa7f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '990f7865112bae61d95605fc1da69a6d') in 0.008351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/Plugins/LitJson.dll
+  artifactKey: Guid(e3bcb9f6d2b014d38815ff3cdeb11f6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/Plugins/LitJson.dll using Guid(e3bcb9f6d2b014d38815ff3cdeb11f6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '80d8ad08751b56ab1fa332d2798e2771') in 0.027335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/texture-config.js
+  artifactKey: Guid(48808678398754db1acffcb0b94ad0a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/texture-config.js using Guid(48808678398754db1acffcb0b94ad0a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7514242ee2de3b0235c07abe18574856') in 0.004822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/MiniGameConfig.asset
+  artifactKey: Guid(b4d55be177f2e42dbbfbed81c5d14f0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/MiniGameConfig.asset using Guid(b4d55be177f2e42dbbfbed81c5d14f0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6f8297f7ef64cdeea574436adbf1bbac') in 0.913002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/WXConvertCore.cs
+  artifactKey: Guid(16161334b3862407fa62d3aa1c7b79f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/WXConvertCore.cs using Guid(16161334b3862407fa62d3aa1c7b79f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e494cfb4826335d88330d44208057bf3') in 0.030157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/WXTouchInputOverride.cs
+  artifactKey: Guid(701e11c62dd2c4c808cc684685c3362b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/WXTouchInputOverride.cs using Guid(701e11c62dd2c4c808cc684685c3362b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '364f01d397e2509669aef21d1470644b') in 0.006883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/Plugins/SDK-WX-TextureMin-JS-WEBGL2-Linear.jslib
+  artifactKey: Guid(f1315910877e64f9898a2c5a31a63994) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/Plugins/SDK-WX-TextureMin-JS-WEBGL2-Linear.jslib using Guid(f1315910877e64f9898a2c5a31a63994) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '020664784c7958f4fc36367ee630b282') in 0.011160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/events.js
+  artifactKey: Guid(3f68905d8bacb40888b26086ca473a73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/events.js using Guid(3f68905d8bacb40888b26086ca473a73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6303c27982111c032eb43bbd19c9e54e') in 0.051810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/TextureEditor/Release/AssetRipper.TextureDecoder.dll
+  artifactKey: Guid(4a563f43abd8546408de4f06090b9f9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/TextureEditor/Release/AssetRipper.TextureDecoder.dll using Guid(4a563f43abd8546408de4f06090b9f9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '626939a2a7488ccabe9d786f6bacb98d') in 0.016561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/TextureEditor/Release/Mono.Cecil.Pdb.dll
+  artifactKey: Guid(46b6212d7f9af457b81b0db029ca88dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/TextureEditor/Release/Mono.Cecil.Pdb.dll using Guid(46b6212d7f9af457b81b0db029ca88dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '24a9119bcfe933f9563b934ac5484447') in 0.032971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.008130 seconds.
+  path: Assets/WX-WASM-SDK-V2/CHANGELOG.md
+  artifactKey: Guid(eaeb9f1caf77b43d2922adf83a728e8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/CHANGELOG.md using Guid(eaeb9f1caf77b43d2922adf83a728e8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '381b86a15cb6bfedb4b16bd79ae7a6c5') in 0.021713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.004744 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/TextureEditor/slim.conf
+  artifactKey: Guid(1a1722151dc86475a97d2595708ea31e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/TextureEditor/slim.conf using Guid(1a1722151dc86475a97d2595708ea31e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ce62de2733745dd5b26bd0936959cf17') in 0.010207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.015429 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/WebMD5.cs
+  artifactKey: Guid(ee32301e25b2402fa31faba7435a1367) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/WebMD5.cs using Guid(ee32301e25b2402fa31faba7435a1367) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5dc873d707b4942f856b279e8a6e62b8') in 0.013712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/Brotli/win_x86_64/msvcp140.dll
+  artifactKey: Guid(482c84c1110074e5295b51734fa3053b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/Brotli/win_x86_64/msvcp140.dll using Guid(482c84c1110074e5295b51734fa3053b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd8c9355705ab51c019451d382f892334') in 0.047280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.004744 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/TextureEditor/Node/pngquant
+  artifactKey: Guid(e78890e7532b942e094f240ba5c88f60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/TextureEditor/Node/pngquant using Guid(e78890e7532b942e094f240ba5c88f60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f61fe8e2bbca1fa93bd9e75f607d7146') in 0.004936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/WebGLTemplates/WXTemplate2022/TemplateData/unity-logo-light.png
+  artifactKey: Guid(9306bb99af1b4402292a016c98b2e054) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WebGLTemplates/WXTemplate2022/TemplateData/unity-logo-light.png using Guid(9306bb99af1b4402292a016c98b2e054) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7fe8ff9ddcbeec7633ef3b333eb45754') in 0.006175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-namespace.js
+  artifactKey: Guid(83e69e224f89047faba4d61e433d155e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-namespace.js using Guid(83e69e224f89047faba4d61e433d155e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4a2fd758a1d6ee43938a69e0674b2ed0') in 0.007358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/Plugins/wx-runtime.xml
+  artifactKey: Guid(58f6f9f7425c24e2588bba8cb3973eb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/Plugins/wx-runtime.xml using Guid(58f6f9f7425c24e2588bba8cb3973eb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e8631d30003f418d701f4ce49a5f9bcc') in 0.031124 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.004966 seconds.
+  path: Assets/WebGLTemplates/WXTemplate/index.html
+  artifactKey: Guid(e8f97b36f4f314df1b6c6e60c2b0906a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WebGLTemplates/WXTemplate/index.html using Guid(e8f97b36f4f314df1b6c6e60c2b0906a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '88a2ed2e564f2a0327615dd15d811d29') in 0.005034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/WXEditorWindow.cs
+  artifactKey: Guid(6521eabde5f4d44adba349ff255f0139) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/WXEditorWindow.cs using Guid(6521eabde5f4d44adba349ff255f0139) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7618e819eaef2aa37235993ecdceb16f') in 0.009370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000757 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/Brotli/win_x86_64/vcruntime140_1.dll
+  artifactKey: Guid(466c0abf5fe5847879df912061e09f9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/Brotli/win_x86_64/vcruntime140_1.dll using Guid(466c0abf5fe5847879df912061e09f9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0ad0b485a6bf1b4d77785bd4fafa8e78') in 0.013292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/TextureEditor/Release/System.Runtime.CompilerServices.Unsafe.xml
+  artifactKey: Guid(4e62c2bef69424d4b9a1868da02aa5c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/TextureEditor/Release/System.Runtime.CompilerServices.Unsafe.xml using Guid(4e62c2bef69424d4b9a1868da02aa5c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9dd44d8c2615df0ad51cc38118ec7157') in 0.009664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/ad.js
+  artifactKey: Guid(a181757fea247436f9a41024e30f76bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/ad.js using Guid(a181757fea247436f9a41024e30f76bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fb2906c7d0a4e5f4b3edf83a7846ecdb') in 0.009170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002611 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/cloud.js
+  artifactKey: Guid(21b9d059f957347e7b62e4ed62c0c7f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/cloud.js using Guid(21b9d059f957347e7b62e4ed62c0c7f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5aba8ca8b8b8e13a0723d2367a21f6a5') in 0.005533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.007514 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/canvas-context.js
+  artifactKey: Guid(fd6051b71665146719371b134101c454) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/canvas-context.js using Guid(fd6051b71665146719371b134101c454) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e1e55753f3331bdd328e8f13305d2f61') in 0.005541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/TextureEditor/Release/System.Numerics.Vectors.xml
+  artifactKey: Guid(3142ec738cfee425186894647ea2542c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/TextureEditor/Release/System.Numerics.Vectors.xml using Guid(3142ec738cfee425186894647ea2542c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '982f1f5cc96d872977c33ea296aa4264') in 0.012155 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/TextureEditor/Release/System.Text.Encoding.CodePages.dll
+  artifactKey: Guid(7d05ed4878f734a40a9f377b7f0f03b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/TextureEditor/Release/System.Text.Encoding.CodePages.dll using Guid(7d05ed4878f734a40a9f377b7f0f03b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '84e48596bf979ed2d75bb4a1ccb67eaa') in 0.022509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000951 seconds.
+  path: Assets/WebGLTemplates/WXTemplate2022TJ/TemplateData/progress-bar-full-light.png
+  artifactKey: Guid(b9eaa48257d376647a6172a7ef910b72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WebGLTemplates/WXTemplate2022TJ/TemplateData/progress-bar-full-light.png using Guid(b9eaa48257d376647a6172a7ef910b72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3fa3a0990f09e4c6f5dd85d4c27d2da4') in 0.014531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/WebGLTemplates/WXTemplate2022TJ/TemplateData/tuanjie-logo-dark.png
+  artifactKey: Guid(50deffb22ca8d4f45bfc27049e50f403) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WebGLTemplates/WXTemplate2022TJ/TemplateData/tuanjie-logo-dark.png using Guid(50deffb22ca8d4f45bfc27049e50f403) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e5b3f66ac34c58c841b8884b04f35036') in 0.005449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001172 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/TextureEditor/Release/AssetsTools.NET.Texture.dll
+  artifactKey: Guid(bfc6b5fc132c54b389c910666e91e66e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/TextureEditor/Release/AssetsTools.NET.Texture.dll using Guid(bfc6b5fc132c54b389c910666e91e66e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '853d746ef56c7a8104e7d014b175b399') in 0.030183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/camera.js
+  artifactKey: Guid(aca8a247786934e7bb8abc7348d9300f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/camera.js using Guid(aca8a247786934e7bb8abc7348d9300f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c484d557ae3e87d656f8cceb5d227985') in 0.022368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/Plugins/link.xml
+  artifactKey: Guid(b079ebcdeb0414c9e9e8990e3490fcb6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/Plugins/link.xml using Guid(b079ebcdeb0414c9e9e8990e3490fcb6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '110aef6f069eba9f8f8d99fa4da04787') in 0.028498 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/authorize.js
+  artifactKey: Guid(7fbe1088891444d5e91a2ba4bfa3495f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/authorize.js using Guid(7fbe1088891444d5e91a2ba4bfa3495f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '230ec35d43c2f2b8a09e63536034ed77') in 0.015383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003106 seconds.
+  path: Assets/WebGLTemplates/WXTemplate2022TJ/TemplateData/progress-bar-empty-light.png
+  artifactKey: Guid(875a5d062711c724db2bb61be04a764d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WebGLTemplates/WXTemplate2022TJ/TemplateData/progress-bar-empty-light.png using Guid(875a5d062711c724db2bb61be04a764d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd27ca1b9d47140ab5fb849fb24b0605f') in 0.006823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/WebGLTemplates/WXTemplate2022/TemplateData/fullscreen-button.png
+  artifactKey: Guid(5336877d02ac34f4e983d7e12ef1f945) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WebGLTemplates/WXTemplate2022/TemplateData/fullscreen-button.png using Guid(5336877d02ac34f4e983d7e12ef1f945) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6813b78d4c0a783373b8f9fceef85630') in 0.005763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/WebGLTemplates/WXTemplate2020/thumbnail.png
+  artifactKey: Guid(2fc5c63ddf7924a90a8d391563d72888) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WebGLTemplates/WXTemplate2020/thumbnail.png using Guid(2fc5c63ddf7924a90a8d391563d72888) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c1a1bc095254c96815bdcf4f94d1bcdb') in 0.008815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/TextureEditor/Release/WXTextureTools.exe.config
+  artifactKey: Guid(052e6c0044ac84706b48255eb83cc5d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/TextureEditor/Release/WXTextureTools.exe.config using Guid(052e6c0044ac84706b48255eb83cc5d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f48373d928df976e4580a3b1dcf55eee') in 0.013996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/plugin-config.js
+  artifactKey: Guid(04281f3dc9f4542a7a9e268951a36172) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/plugin-config.js using Guid(04281f3dc9f4542a7a9e268951a36172) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '03fa5b60827be7370d46d0d6f82122ef') in 0.005083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/TextureEditor/Release/SixLabors.ImageSharp.xml
+  artifactKey: Guid(7f0de3fbaf2b948239e9b1f4338444fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/TextureEditor/Release/SixLabors.ImageSharp.xml using Guid(7f0de3fbaf2b948239e9b1f4338444fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '51d8bc0ffe8ad3197b41f0124db198cb') in 0.017524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/TextureEditor/Release/System.Text.Encoding.CodePages.xml
+  artifactKey: Guid(bee745550b0fd4509bcf69d64c3467dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/TextureEditor/Release/System.Text.Encoding.CodePages.xml using Guid(bee745550b0fd4509bcf69d64c3467dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'af84577beec5af0e974a9b3ee6cb31da') in 0.011701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/WX-WASM-SDK-V2/package.json
+  artifactKey: Guid(f0066cb5860f84011b08359afae89c69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/package.json using Guid(f0066cb5860f84011b08359afae89c69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7c86d2154caf8765831bf8f574eac7df') in 0.016572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/TextureEditor/Release/System.Memory.xml
+  artifactKey: Guid(0e296d06f7b4c4b75868a6002dde35e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/TextureEditor/Release/System.Memory.xml using Guid(0e296d06f7b4c4b75868a6002dde35e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '66ef6e57abfc680bffbca08f4ab702c2') in 0.005821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/Plugins/Gyroscope.jslib
+  artifactKey: Guid(45dd8c2a2ea344e82b37e0128ac127ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/Plugins/Gyroscope.jslib using Guid(45dd8c2a2ea344e82b37e0128ac127ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2296731b8ac76be913a3931057cae56f') in 0.009765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/Plugins/AES.jslib
+  artifactKey: Guid(a8be7960d079402392e951de6e3978b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/Plugins/AES.jslib using Guid(a8be7960d079402392e951de6e3978b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2d5eaafaeb7aececca5a78a6aff5e162') in 0.082107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/TextureEditor/Release/WXTextureTools.exe
+  artifactKey: Guid(09ace65c67a4546b69b7dd4afe3fe8d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/TextureEditor/Release/WXTextureTools.exe using Guid(09ace65c67a4546b69b7dd4afe3fe8d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '45baf63ef85abee24ec819e59cd07a22') in 0.007508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/WxWasmSDKEditor.asmdef
+  artifactKey: Guid(eb6ae48726f0b434e9d6ea7d36a67545) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/WxWasmSDKEditor.asmdef using Guid(eb6ae48726f0b434e9d6ea7d36a67545) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a14a8a7ec5eb0a0ec085d4aeea16e3da') in 0.010701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/Plugins/WXAssetBundle.jslib
+  artifactKey: Guid(f0312171d672c4253a88f587630cce43) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/Plugins/WXAssetBundle.jslib using Guid(f0312171d672c4253a88f587630cce43) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7ec230b315fb769d3f247d5234d1dcad') in 0.017070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/WebGLTemplates/WXTemplate2022/TemplateData/style.css
+  artifactKey: Guid(878099ec7f2e943059af39ca45bd435d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WebGLTemplates/WXTemplate2022/TemplateData/style.css using Guid(878099ec7f2e943059af39ca45bd435d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0a665c0b8c6a7cfd334f49bcb52de9f0') in 0.022140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/Brotli/win_x86_64/brotli.exe
+  artifactKey: Guid(14077bb4dfcdf487aa222261b4719a0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/Brotli/win_x86_64/brotli.exe using Guid(14077bb4dfcdf487aa222261b4719a0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd043a7feed971cad4a578295172a8eed') in 0.004949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/check-version.js
+  artifactKey: Guid(46ddd896902fb4f58816cb5bbf3135d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/check-version.js using Guid(46ddd896902fb4f58816cb5bbf3135d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1c220ebd142201f2c1a61bc017562b62') in 0.013437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/TextureEditor/Node/astcenc-neon
+  artifactKey: Guid(b8d17f3584abd400cb2a7b53d6cb59cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/TextureEditor/Node/astcenc-neon using Guid(b8d17f3584abd400cb2a7b53d6cb59cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8d29c9086b90c060311a8100d9a33076') in 0.011211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.004268 seconds.
+  path: Assets/WebGLTemplates/WXTemplate2022/TemplateData/progress-bar-empty-dark.png
+  artifactKey: Guid(0738cbbd80b71485b8e37249eba7bd50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WebGLTemplates/WXTemplate2022/TemplateData/progress-bar-empty-dark.png using Guid(0738cbbd80b71485b8e37249eba7bd50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4df3c20c8a71df8539505ecf634367fa') in 0.006359 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/Plugins/SDK-WX-TextureMin-JS-WEBGL1.jslib
+  artifactKey: Guid(d55bbf266368a4d91b5b8750b746dc78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/Plugins/SDK-WX-TextureMin-JS-WEBGL1.jslib using Guid(d55bbf266368a4d91b5b8750b746dc78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd5ebffe13fb3c67cb6fc1de34c27aa57') in 0.012539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/game-club.js
+  artifactKey: Guid(864b7635309e74d358e0b6d4bf239d09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/game-club.js using Guid(864b7635309e74d358e0b6d4bf239d09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ad5a330e4778bda859964cb2bd92f076') in 0.005841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/game-recorder.js
+  artifactKey: Guid(b6a24c1c6ae5c44638ba4fa29b9e9436) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/game-recorder.js using Guid(b6a24c1c6ae5c44638ba4fa29b9e9436) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c4572633a53dd5865b117dd4397069df') in 0.006093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/fix.js
+  artifactKey: Guid(c2fbbbad7a86747f687656d7c4dd47e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/fix.js using Guid(c2fbbbad7a86747f687656d7c4dd47e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '88dbd62a682b37a78befbb607913f14e') in 0.102426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/storage.js
+  artifactKey: Guid(b4250ae768e2e4ccb9da8a2f96b2251f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/storage.js using Guid(b4250ae768e2e4ccb9da8a2f96b2251f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f13ed407e980d0a416064c0a3d5fcb80') in 0.005736 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000408 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/Node/node_modules/binaryen/README.md
+  artifactKey: Guid(0786375919a5f4b39a2842d398bab691) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/Node/node_modules/binaryen/README.md using Guid(0786375919a5f4b39a2842d398bab691) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'aa769d66087ca758f051d1e9d54978d3') in 0.011014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/logger.js
+  artifactKey: Guid(458e8a75b6156424a8cda5a4a6121001) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/logger.js using Guid(458e8a75b6156424a8cda5a4a6121001) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '18c6e4911686b39ef7adb30f4f223657') in 0.006175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/audio/common.js
+  artifactKey: Guid(a663f129eff804dc1bd9962c97af4a3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/audio/common.js using Guid(a663f129eff804dc1bd9962c97af4a3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '47d93931e898d39969589cef51d3c8f8') in 0.031931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/fs.js
+  artifactKey: Guid(819c64c08ea1b41e09824c141bd4e91e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/fs.js using Guid(819c64c08ea1b41e09824c141bd4e91e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f756a2b37c6e5fcadae8d2735759d528') in 0.005595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/Node/node_modules/binaryen/LICENSE
+  artifactKey: Guid(72db98ce23892438085944429a2f0f1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/Node/node_modules/binaryen/LICENSE using Guid(72db98ce23892438085944429a2f0f1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e4c2bca034a4167e3380fd659a65f3b3') in 0.013653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.006408 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/open-data/data/utils.js
+  artifactKey: Guid(6a08434d826374d698f223a576eae083) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/open-data/data/utils.js using Guid(6a08434d826374d698f223a576eae083) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fa96643767e6c68b30c453216e23a904') in 0.009853 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.011946 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/wasmcode/game.js
+  artifactKey: Guid(41a5cc1d7aebb4cc09bc747d44ab841f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/wasmcode/game.js using Guid(41a5cc1d7aebb4cc09bc747d44ab841f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'deaedac646af772f1940e688dc29cf96') in 0.005448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/userinfo.js
+  artifactKey: Guid(d9e69f85876744e64a6b544e854c3c9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/userinfo.js using Guid(d9e69f85876744e64a6b544e854c3c9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9a25688a871b815eb44bddeeaa6e077a') in 0.014051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/open-data.js
+  artifactKey: Guid(7ab22b81f4d9542aebbd79093bad351a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/open-data.js using Guid(7ab22b81f4d9542aebbd79093bad351a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8eae399087add7bf26e47c101eeace89') in 0.007121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/utils.js
+  artifactKey: Guid(98109266b001544cdaba6a49f9ab80a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/utils.js using Guid(98109266b001544cdaba6a49f9ab80a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '602058da1847e330297c65b7d19d10e1') in 0.004854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/recorder.js
+  artifactKey: Guid(f066a313454e54aa7aa6de79d705d859) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/recorder.js using Guid(f066a313454e54aa7aa6de79d705d859) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e4aff4a0f8e5b28a8907b417ff1409ef') in 0.043996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/audio/const.js
+  artifactKey: Guid(dc4d0d1a217884b31a902f44d8a9669b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/audio/const.js using Guid(dc4d0d1a217884b31a902f44d8a9669b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '18788dd511cd16c489b3c006afb70d7c') in 0.014321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/video.js
+  artifactKey: Guid(8adaa7509bcde40cda6cb6c1b199ac36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/video.js using Guid(8adaa7509bcde40cda6cb6c1b199ac36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3d7e1440bffbfcc180e64df87afd73f7') in 0.004903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/texture.js
+  artifactKey: Guid(d1b6bba722a8f4d1a92f217436469a7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/texture.js using Guid(d1b6bba722a8f4d1a92f217436469a7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8f39a770629fc331477a375d65add4e7') in 0.006570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/Node/node_modules/binaryen/index.js
+  artifactKey: Guid(e116238b593ee4f118e080fc2e1be1d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/Node/node_modules/binaryen/index.js using Guid(e116238b593ee4f118e080fc2e1be1d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b4735ac3d6963be43adb92d41c0a2698') in 0.005677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/index.js
+  artifactKey: Guid(a32801dff005c486db1c0a1e5c3d86e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/index.js using Guid(a32801dff005c486db1c0a1e5c3d86e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7c93c6ae362db5e8c6cac84061ed435e') in 0.005347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/open-data/data/index.js
+  artifactKey: Guid(8ac9cda2eb57d43d0a60af7e52e2df9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/open-data/data/index.js using Guid(8ac9cda2eb57d43d0a60af7e52e2df9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8b986020646d9cdddff5e0d87e423e4e') in 0.005696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/TCPSocket/index.js
+  artifactKey: Guid(bb80b28f0c18c49c59c1a1efe54a09e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/TCPSocket/index.js using Guid(bb80b28f0c18c49c59c1a1efe54a09e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a20121b8bcd5e1ef24a6dac40fe283ed') in 0.005324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/sdk.js
+  artifactKey: Guid(a2f42148cda5742cd8dac7ecfd5056e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/sdk.js using Guid(a2f42148cda5742cd8dac7ecfd5056e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dea616e7a0a77662ed582cdee2b5ce1d') in 0.045513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/response.js
+  artifactKey: Guid(2485db16d4ce74c8c99a9e29326aa5e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/response.js using Guid(2485db16d4ce74c8c99a9e29326aa5e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '539a626360fd66bdb07b3083dd9e13fb') in 0.013741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/TextureEditor/Node/pngquant.exe
+  artifactKey: Guid(a69a4e1dbb4c6456fb71f4ee0e5ee2e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/TextureEditor/Node/pngquant.exe using Guid(a69a4e1dbb4c6456fb71f4ee0e5ee2e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c1a5f8f037d73902df2aae9388a8a769') in 0.004993 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/TextureEditor/Release/System.Runtime.CompilerServices.Unsafe.dll
+  artifactKey: Guid(5aa665c9abc684afaa92d6cb506badbf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/TextureEditor/Release/System.Runtime.CompilerServices.Unsafe.dll using Guid(5aa665c9abc684afaa92d6cb506badbf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '810ee433eca0fd72755a441d1211db5a') in 0.013842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/TextureEditor/classdata.tpk
+  artifactKey: Guid(7effdffff4ef64cc1855f2f1ab492810) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/TextureEditor/classdata.tpk using Guid(7effdffff4ef64cc1855f2f1ab492810) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '419e73445c84273a16fbf64332f6b6ce') in 0.005714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/project.config.json
+  artifactKey: Guid(1195d27545b9345d7973935e4ba71b44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/project.config.json using Guid(1195d27545b9345d7973935e4ba71b44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dd7996c5c3998e229665bc118eec9677') in 0.006184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/util.js
+  artifactKey: Guid(38c64503f97e9483ba990b5c36045a00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/util.js using Guid(38c64503f97e9483ba990b5c36045a00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '51a299f1969e82f12379b651c704b7f9') in 0.006800 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/upload-file.js
+  artifactKey: Guid(b59f82fe8773946dcbb8becd0af7e4b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/upload-file.js using Guid(b59f82fe8773946dcbb8becd0af7e4b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c1065e75fb934f91c49efab190e6d35a') in 0.006283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/WXBase.cs
+  artifactKey: Guid(53b47b93caed9426d81c354bb916a04b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/WXBase.cs using Guid(53b47b93caed9426d81c354bb916a04b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fe215949cd52a9ee2597378d29e992e9') in 0.011630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/Brotli/commits.txt
+  artifactKey: Guid(5aaeb4910866f4388a86efc2ac5bde76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/Brotli/commits.txt using Guid(5aaeb4910866f4388a86efc2ac5bde76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fe983ecf6f7f705f5bda4a1841573209') in 0.007478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/WebGLTemplates/WXTemplate2022/TemplateData/progress-bar-full-dark.png
+  artifactKey: Guid(2a6db010c81f04079be2d39f9f4f36a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WebGLTemplates/WXTemplate2022/TemplateData/progress-bar-full-dark.png using Guid(2a6db010c81f04079be2d39f9f4f36a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '955064cca5c0c97727888c95e48b5e77') in 0.007337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/WebGLTemplates/WXTemplate2022/thumbnail.png
+  artifactKey: Guid(17952b36507784310a2a0252c91f1682) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WebGLTemplates/WXTemplate2022/thumbnail.png using Guid(17952b36507784310a2a0252c91f1682) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '371c700cfc9a2cfae695ea9e1ae12523') in 0.009739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/WebGLTemplates/WXTemplate2022/TemplateData/webmemd-icon.png
+  artifactKey: Guid(c2eb97e4ee174490bb8c098eaa969317) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WebGLTemplates/WXTemplate2022/TemplateData/webmemd-icon.png using Guid(c2eb97e4ee174490bb8c098eaa969317) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0ec5ec6b43d571840f620d69d66d19e7') in 0.091158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001008 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/Brotli/macos/brotli
+  artifactKey: Guid(74b4e5c821cda4b7d8f401d7935a892e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/Brotli/macos/brotli using Guid(74b4e5c821cda4b7d8f401d7935a892e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ac9972881dcc84ff021b84b382735bc3') in 0.011361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/WebGLTemplates/WXTemplate2022TJ/TemplateData/webmemd-icon.png
+  artifactKey: Guid(f77ea708eb9ff4a408a24ff4a965f57c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WebGLTemplates/WXTemplate2022TJ/TemplateData/webmemd-icon.png using Guid(f77ea708eb9ff4a408a24ff4a965f57c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fbcfd8eff5829d4df895856879c6d72b') in 0.005536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/game.js
+  artifactKey: Guid(6a35ad406802149a88630d8949f1558e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/game.js using Guid(6a35ad406802149a88630d8949f1558e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3c8648a8fb9dcba2a80185a46901e60a') in 0.006346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/audio/utils.js
+  artifactKey: Guid(2f261d57a6ccf475f8f7b1ae55abf16d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/audio/utils.js using Guid(2f261d57a6ccf475f8f7b1ae55abf16d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '904df782a863fd849a279bc9c098eb4e') in 0.005967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/audio/inner-audio.js
+  artifactKey: Guid(2cc6b5fd589d74dfbbca8243f279cd35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/audio/inner-audio.js using Guid(2cc6b5fd589d74dfbbca8243f279cd35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'de01c9d657a95b480d35cf31997c188f') in 0.008205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/workers/response/index.js
+  artifactKey: Guid(2c310adb6cfbb451caee90070f8df96f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/workers/response/index.js using Guid(2c310adb6cfbb451caee90070f8df96f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a17c010b80380d63a654148948cf91e9') in 0.006799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/font/fix-cmap.js
+  artifactKey: Guid(5387f8928754b438ab231bf671de27e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/font/fix-cmap.js using Guid(5387f8928754b438ab231bf671de27e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2d8883accdc07e86ec0cea66ef36854c') in 0.008998 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/open-data/render/image/shareBg.png
+  artifactKey: Guid(1ed13f135c12e4a90a737d5493e48a5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/open-data/render/image/shareBg.png using Guid(1ed13f135c12e4a90a737d5493e48a5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '931e845794a4a0154f694888b2302b34') in 0.444748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/Node/node_modules/binaryen/bin/wasm-opt
+  artifactKey: Guid(59195b600f5474a34ab0de959545786a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/Node/node_modules/binaryen/bin/wasm-opt using Guid(59195b600f5474a34ab0de959545786a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e4f5dd521b9100fba97d1a024a8775b6') in 0.162365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/mobileKeyboard/index.js
+  artifactKey: Guid(e92699cdf1bd64399a6c9f157266d822) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/mobileKeyboard/index.js using Guid(e92699cdf1bd64399a6c9f157266d822) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ae07b42d5f6445e207a9000a58cb37bc') in 0.008947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/open-data/render/image/button2.png
+  artifactKey: Guid(594d08dc6fdf74615807fef5284df8ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/open-data/render/image/button2.png using Guid(594d08dc6fdf74615807fef5284df8ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4f75f3a13333a148ea52875f3bdaa4e3') in 0.099317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/font/util.js
+  artifactKey: Guid(659730c25037142a9a045742bea787d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/font/util.js using Guid(659730c25037142a9a045742bea787d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0eea0bc629346d5c8b991717d3899a0f') in 0.006157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/open-data/render/image/rankBg.png
+  artifactKey: Guid(747d8b34d6340496192dbce21e94a5b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/open-data/render/image/rankBg.png using Guid(747d8b34d6340496192dbce21e94a5b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd6810f7d183bdec4b99e502c8f2f8aec') in 0.083016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001916 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/Node/node_modules/binaryen/bin/wasm2js
+  artifactKey: Guid(945d329c042b5422590297f9a668573b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/Node/node_modules/binaryen/bin/wasm2js using Guid(945d329c042b5422590297f9a668573b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '78f3fe3b20b838c40415719810f583ae') in 0.053352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.015358 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/Node/node_modules/binaryen/bin/package.json
+  artifactKey: Guid(a687be9fecc0c4635a0198f4c84c5a7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/Node/node_modules/binaryen/bin/package.json using Guid(a687be9fecc0c4635a0198f4c84c5a7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8f8cc53956057a318c8ad0d29ae46484') in 0.011353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/font/split-sc.js
+  artifactKey: Guid(b1c1684733cff4a0c8cdb972967c1051) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/font/split-sc.js using Guid(b1c1684733cff4a0c8cdb972967c1051) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5d7062a996d83e28b88b32e73df46d27') in 0.033382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/open-data/render/image/shareBg2.png
+  artifactKey: Guid(1be16015071af478aa893d79b9031ee3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/open-data/render/image/shareBg2.png using Guid(1be16015071af478aa893d79b9031ee3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e82e980c10b7be77e12efc71e29ff46d') in 0.247147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/touch/index.js
+  artifactKey: Guid(3e59a9532807c4327a2cb716540b6fa6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/touch/index.js using Guid(3e59a9532807c4327a2cb716540b6fa6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b2ce11778fe22026decd5466c8e96307') in 0.007578 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000969 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/open-data/render/tpls/tips.js
+  artifactKey: Guid(9cee368ae70a745b7bd3fd36a253186b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/open-data/render/tpls/tips.js using Guid(9cee368ae70a745b7bd3fd36a253186b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd7ef2da5e9e40314afda0d498bdc9029') in 0.022757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/gyroscope/index.js
+  artifactKey: Guid(0db7e82f0605e4d859f38269572321c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/gyroscope/index.js using Guid(0db7e82f0605e4d859f38269572321c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5cc83b3c47e55ca4a79aab413a49c677') in 0.008108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002628 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/open-data/render/styles/friendRank.js
+  artifactKey: Guid(36e8aff7c800d44e3860b69266524280) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/open-data/render/styles/friendRank.js using Guid(36e8aff7c800d44e3860b69266524280) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b6ac9c60f9bdcfe7d6878bc019d7bc78') in 0.007649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/open-data/render/image/avatar.png
+  artifactKey: Guid(bf4cadad145e940eca4b3b9ddcc53fd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/open-data/render/image/avatar.png using Guid(bf4cadad145e940eca4b3b9ddcc53fd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8d03fef91fe6e9090c8938d1a06f3704') in 0.082399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/audio/unity-audio.js
+  artifactKey: Guid(4df4f7c0376274a85b1182d63eac3d32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/audio/unity-audio.js using Guid(4df4f7c0376274a85b1182d63eac3d32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c859fe9c626d4af83f7482e9ed3cf32b') in 0.010565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.010864 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/open-data/render/image/loading.png
+  artifactKey: Guid(1ecd43c2004c04d29ba35286e2276680) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/open-data/render/image/loading.png using Guid(1ecd43c2004c04d29ba35286e2276680) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9f131af2ad0ef563cb95e8481aab9655') in 0.083950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/open-data/render/image/button1.png
+  artifactKey: Guid(5b6c3db73edb1467487d510b5d95207e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/open-data/render/image/button1.png using Guid(5b6c3db73edb1467487d510b5d95207e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6f3e3c12919d38fac5736c558e015991') in 0.056661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/open-data/render/tpls/friendRank.js
+  artifactKey: Guid(cd7635f5f1dfb425cbd4e796bb81cc7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/open-data/render/tpls/friendRank.js using Guid(cd7635f5f1dfb425cbd4e796bb81cc7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3cabcfc6f67517cc1bcc74ada53349b9') in 0.010680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/open-data/render/image/rankAvatar.png
+  artifactKey: Guid(be439415431954e9081174448eecfd04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/open-data/render/image/rankAvatar.png using Guid(be439415431954e9081174448eecfd04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8c7e28a65559288942d82ddbf851e2b0') in 0.073036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/open-data/render/styles/tips.js
+  artifactKey: Guid(aa409754df3554d01ba3b226aaca4502) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/open-data/render/styles/tips.js using Guid(aa409754df3554d01ba3b226aaca4502) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b7f0928b78d01390a843b57cb3dbc246') in 0.005558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000524 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/TextureEditor/Release/wxlog.dll
+  artifactKey: Guid(9925d197d84944670867d1ce5152a1d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/TextureEditor/Release/wxlog.dll using Guid(9925d197d84944670867d1ce5152a1d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'be7f20a4898253000fb0f7aedb7ecbc3') in 0.012618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000729 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/canvas.js
+  artifactKey: Guid(45d5e2713ff894e958bef56b73dd3171) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/canvas.js using Guid(45d5e2713ff894e958bef56b73dd3171) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '55b75dd780c14e03dd5649e96da4f4e7') in 0.049835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/Node/node_modules/binaryen/package.json
+  artifactKey: Guid(95f171f78f3854726ba37852e7da8ace) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/Node/node_modules/binaryen/package.json using Guid(95f171f78f3854726ba37852e7da8ace) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bd41baf360c8e32107cfd27146d387df') in 0.010785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/font/read-metrics.js
+  artifactKey: Guid(f233faebfccc54520b72d037cc83546b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/font/read-metrics.js using Guid(f233faebfccc54520b72d037cc83546b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8e61ce5cddcbfb88a2c1c55b3855a4ba') in 0.005311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/open-data/loading.js
+  artifactKey: Guid(63cb7ae23b0fe4982912634033ba00f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/open-data/loading.js using Guid(63cb7ae23b0fe4982912634033ba00f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b884ad326e9fca9189212e3c77b30c91') in 0.007069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/PicCompressor.cs
+  artifactKey: Guid(0b1635079cc064e43992cabea23c6113) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/PicCompressor.cs using Guid(0b1635079cc064e43992cabea23c6113) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'db485b76aff9f7423b374fa3e03e18ad') in 0.009764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/WebGLTemplates/WXTemplate2022/TemplateData/favicon.ico
+  artifactKey: Guid(0abd9827b18a541789c5a3ffa682f61e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WebGLTemplates/WXTemplate2022/TemplateData/favicon.ico using Guid(0abd9827b18a541789c5a3ffa682f61e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'df448c4ff15345dd34744eb4bb193b74') in 0.087775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/font/index.js
+  artifactKey: Guid(a81c2db2b6aea4c798ab002afababbde) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/font/index.js using Guid(a81c2db2b6aea4c798ab002afababbde) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '17ea4fd1d36de021debb13b0e5271528') in 0.009883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/convert.exe
+  artifactKey: Guid(f6343e71e5292471784dafd28757bca3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/convert.exe using Guid(f6343e71e5292471784dafd28757bca3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7e95874cea01c3bc1a453c06713ea246') in 0.004431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/WebGLTemplates/WXTemplate2022TJ/TemplateData/favicon.ico
+  artifactKey: Guid(d1860b3edef0c5943a47043154a73226) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WebGLTemplates/WXTemplate2022TJ/TemplateData/favicon.ico using Guid(d1860b3edef0c5943a47043154a73226) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '305d5e2751d72391c02e6ce12f17648a') in 0.005838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.006271 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/TextureEditor/Release/System.Buffers.dll
+  artifactKey: Guid(2a36bcfa634364492b9887eddeeffc81) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/TextureEditor/Release/System.Buffers.dll using Guid(2a36bcfa634364492b9887eddeeffc81) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '45028c5c0cb6e9f3bc90bf5d1e912107') in 0.010954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/WebGLTemplates/WXTemplate2022/TemplateData/webgl-logo.png
+  artifactKey: Guid(55ad3228de1f94568bc5fa5722039863) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WebGLTemplates/WXTemplate2022/TemplateData/webgl-logo.png using Guid(55ad3228de1f94568bc5fa5722039863) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e2801b7ab165ba10c50093dbb09cba22') in 0.005434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/Node/package.json
+  artifactKey: Guid(b7da9cba2e99b4eaf9c4813ef99dd093) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/Node/package.json using Guid(b7da9cba2e99b4eaf9c4813ef99dd093) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '07a41f52eb2bbb47debca0dc7c268f28') in 0.006490 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/WXExtDef.cs
+  artifactKey: Guid(c55b2481b4f414cc9a504335f6396c93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/WXExtDef.cs using Guid(c55b2481b4f414cc9a504335f6396c93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f0856d5295fcfb8ec5a27e2232a2da38') in 0.043606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/Brotli/linux_x86_64/brotli
+  artifactKey: Guid(c7d34b53fefa24bf5b0ce2914fc60ad8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/Brotli/linux_x86_64/brotli using Guid(c7d34b53fefa24bf5b0ce2914fc60ad8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '89640c5530ab956c0ec5c4967fcd4981') in 0.005561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/images/unity_logo.png
+  artifactKey: Guid(52d6d1ac9979e4c0ebe618af740b4138) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/images/unity_logo.png using Guid(52d6d1ac9979e4c0ebe618af740b4138) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5a73cb73a3274236414d2d1a52f46014') in 0.064013 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/data-package/game.js
+  artifactKey: Guid(473d66876cd914dbca4adb568ee9e056) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/data-package/game.js using Guid(473d66876cd914dbca4adb568ee9e056) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6613614e45c39869c0210a033e205fb6') in 0.009243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/Node/node_modules/binaryen/index.d.ts
+  artifactKey: Guid(5c728f27cb29c4a7ab957bec87aee79b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/Node/node_modules/binaryen/index.d.ts using Guid(5c728f27cb29c4a7ab957bec87aee79b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b099bdbbc2034340540ca6770c8260cb') in 0.035423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/share.js
+  artifactKey: Guid(873f4034aa73f4966a2ae66739f108e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/share.js using Guid(873f4034aa73f4966a2ae66739f108e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1844633e6247e44cb9f0f7b45437356f') in 0.011803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/wx-editor.dll
+  artifactKey: Guid(1cf430f187a0b40eda7f668318d8be23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/wx-editor.dll using Guid(1cf430f187a0b40eda7f668318d8be23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '387f68b62178498b9c03f0880e6017c4') in 0.130972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000477 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/TextureEditor/Release/Mono.Cecil.Rocks.dll
+  artifactKey: Guid(d4fc050e897664dfdb7dfa2ac285e02c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/TextureEditor/Release/Mono.Cecil.Rocks.dll using Guid(d4fc050e897664dfdb7dfa2ac285e02c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1c186f6ae022dc8be4548d47630f0d69') in 0.010216 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/open-data/render/image/nameBg.png
+  artifactKey: Guid(39b9560e3c886424bbd71248da04fb30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/open-data/render/image/nameBg.png using Guid(39b9560e3c886424bbd71248da04fb30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '67436b11f593cdd52a07442b7c5ceaf8') in 0.121544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/audio/store.js
+  artifactKey: Guid(cc4cbcf29230342c28d0e063346a8821) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/audio/store.js using Guid(cc4cbcf29230342c28d0e063346a8821) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '553946fd559bf703e16c7301336b3b14') in 0.005748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/Plugins/SDK-WX-TextureMin-JS-WEBGL2.jslib
+  artifactKey: Guid(3940ebcc91b954d46ab08a5ee248e437) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/Plugins/SDK-WX-TextureMin-JS-WEBGL2.jslib using Guid(3940ebcc91b954d46ab08a5ee248e437) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f9f9234960189315e43df8dfece656cb') in 0.014335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/Plugins/Touch.jslib
+  artifactKey: Guid(444bec77765d04ba4b9651e697c210de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/Plugins/Touch.jslib using Guid(444bec77765d04ba4b9651e697c210de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd933b5e2b983f914ffbdb32beeebc5fb') in 0.036776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/WebGLTemplates/WXTemplate2022/TemplateData/progress-bar-empty-light.png
+  artifactKey: Guid(453895212181148f094c3c8d0c35aab5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WebGLTemplates/WXTemplate2022/TemplateData/progress-bar-empty-light.png using Guid(453895212181148f094c3c8d0c35aab5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '82277e3efa48a9ec8ce93435314896f6') in 0.011917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/WebGLTemplates/WXTemplate2022TJ/TemplateData/progress-bar-empty-dark.png
+  artifactKey: Guid(02b61b01616aa744db3becb0df4455ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WebGLTemplates/WXTemplate2022TJ/TemplateData/progress-bar-empty-dark.png using Guid(02b61b01616aa744db3becb0df4455ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7689990a759dfbfbcaae82dc3ee5580e') in 0.007716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/WebGLTemplates/WXTemplate2022TJ/TemplateData/MemoryProfiler.png
+  artifactKey: Guid(3bd7242d42a9f1742903ecccb66d5745) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WebGLTemplates/WXTemplate2022TJ/TemplateData/MemoryProfiler.png using Guid(3bd7242d42a9f1742903ecccb66d5745) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '39a7b197efaa808835ab74bdb19de439') in 0.049179 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/module-helper.js
+  artifactKey: Guid(7f7ad0b85dfa4423e95443483b4fbb12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/module-helper.js using Guid(7f7ad0b85dfa4423e95443483b4fbb12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c7552cecf19a9b5180ddd7255393ac65') in 0.007152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/TextureEditor/Release/System.Memory.dll
+  artifactKey: Guid(4befa62a970884b639d880395e3530be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/TextureEditor/Release/System.Memory.dll using Guid(4befa62a970884b639d880395e3530be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8b3e9cf433df1da2eb507deaaf0bafcc') in 0.015079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/TextureEditor/Node/astcenc-avx2.exe
+  artifactKey: Guid(d11f540cd68bc4963b55a165b65e0eab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/TextureEditor/Node/astcenc-avx2.exe using Guid(d11f540cd68bc4963b55a165b65e0eab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '87b11fe50406014397831740ca17c963') in 0.045031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/WXEditorSettingHelper.cs
+  artifactKey: Guid(6aad761bd858d8d4880b225d799ed346) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/WXEditorSettingHelper.cs using Guid(6aad761bd858d8d4880b225d799ed346) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c82322e760efe6646c2bd6a523eaba47') in 0.010554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/WebGLTemplates/WXTemplate2022/TemplateData/progress-bar-full-light.png
+  artifactKey: Guid(5ada6f5b2b54c4c0598ff0a793185495) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WebGLTemplates/WXTemplate2022/TemplateData/progress-bar-full-light.png using Guid(5ada6f5b2b54c4c0598ff0a793185495) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4b6e59708e8862e562f0ece1baa9e860') in 0.007659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/WX.cs
+  artifactKey: Guid(ffc57a59a921b41ad99b4dbcda98fbd3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/WX.cs using Guid(ffc57a59a921b41ad99b4dbcda98fbd3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '414bc996ebbc137c8cf72c93e9114a9e') in 0.007521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001011 seconds.
+  path: Assets/WebGLTemplates/WXTemplate2022/TemplateData/MemoryProfiler.png
+  artifactKey: Guid(2e1365461e7184d5eaad8732e041c139) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WebGLTemplates/WXTemplate2022/TemplateData/MemoryProfiler.png using Guid(2e1365461e7184d5eaad8732e041c139) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '880c1c223a336bde4cfc3fe894ef59a4') in 0.005266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/Plugins/Unity.FontABTool.dll
+  artifactKey: Guid(f17a7c2339e372b468d80e48b8a1fbb8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/Plugins/Unity.FontABTool.dll using Guid(f17a7c2339e372b468d80e48b8a1fbb8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e9989be541801a45959a1be29fd5e437') in 0.012801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/WX-WASM-SDK-V2/mainifest.json
+  artifactKey: Guid(9b8d34f36df5c4c3ea7735648fc61c7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/mainifest.json using Guid(9b8d34f36df5c4c3ea7735648fc61c7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a12d89f173e46641753d85aca40c17cd') in 0.008993 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/audio/index.js
+  artifactKey: Guid(10e1ce82aa0d4436baeaee6d41cad179) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/audio/index.js using Guid(10e1ce82aa0d4436baeaee6d41cad179) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '186f15f88a68cc3b978b21b44db86485') in 0.077894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000939 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/Plugins/SDK-Call-JS-Old.jslib
+  artifactKey: Guid(63afc2a12fd6d404092ed133a0c10433) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/Plugins/SDK-Call-JS-Old.jslib using Guid(63afc2a12fd6d404092ed133a0c10433) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6f84cc9a96e3acb25047f1629f49d47f') in 0.021938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/WXPluginVersion.cs
+  artifactKey: Guid(219f51218fc9f4c2a819e2cb5cf9a89a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/WXPluginVersion.cs using Guid(219f51218fc9f4c2a819e2cb5cf9a89a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'eb74fa01a8a68d3191e05309f342325d') in 0.020988 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001109 seconds.
+  path: Assets/WebGLTemplates/WXTemplate2022TJ/TemplateData/fullscreen-button.png
+  artifactKey: Guid(7a2f49f19a6f54f4ab9a7a0d5b0a2047) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WebGLTemplates/WXTemplate2022TJ/TemplateData/fullscreen-button.png using Guid(7a2f49f19a6f54f4ab9a7a0d5b0a2047) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '089d1e8be2ee2f6a4c53cfbf6f16c62a') in 0.007892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/TextureEditor/Release/Mono.Cecil.dll
+  artifactKey: Guid(295efddacdbe34a76897f7a077c80dae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/TextureEditor/Release/Mono.Cecil.dll using Guid(295efddacdbe34a76897f7a077c80dae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f1163946b9885348dcb66b09f668e903') in 0.011397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/Brotli/LICENSE.txt
+  artifactKey: Guid(094d36fd8b54c4c3d98d21b57d92ae26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/Brotli/LICENSE.txt using Guid(094d36fd8b54c4c3d98d21b57d92ae26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '732326b43af88bddf537b5ae735fe2d3') in 0.007296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/Plugins/wx-runtime-editor.xml
+  artifactKey: Guid(229920fab178543bf84dadc7c49ba67f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/Plugins/wx-runtime-editor.xml using Guid(229920fab178543bf84dadc7c49ba67f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7281dac6c4a28487e986cbaa74b82b7c') in 0.009542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/WebGLTemplates/WXTemplate2022/TemplateData/unity-logo-dark.png
+  artifactKey: Guid(05b0b0f8246a94ba48e74f7f87727ec3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WebGLTemplates/WXTemplate2022/TemplateData/unity-logo-dark.png using Guid(05b0b0f8246a94ba48e74f7f87727ec3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '117842cee7523ab1cf4ee3e9b10e2e1e') in 0.005649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/wx-editor.xml
+  artifactKey: Guid(c29a7ef69f21a4d3f98e8ae4e5c78c8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/wx-editor.xml using Guid(c29a7ef69f21a4d3f98e8ae4e5c78c8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7185e8268dd23af44676fc373fa0244f') in 0.010975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000856 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/video/index.js
+  artifactKey: Guid(af1215355a2564b6b8af52625d2dc5c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/video/index.js using Guid(af1215355a2564b6b8af52625d2dc5c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f867234334829a80f4c2b43d03807851') in 0.020917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/open-data/index.js
+  artifactKey: Guid(5f9195de1533642eea21ca6eb3679f71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/open-data/index.js using Guid(5f9195de1533642eea21ca6eb3679f71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '072c9b9241c020b9e6fc48c18d1b6968') in 0.011094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.010284 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/images/background.jpg
+  artifactKey: Guid(307b792793e6746e588b920879c1b8c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/images/background.jpg using Guid(307b792793e6746e588b920879c1b8c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bc9c2e7f6a30e09f673fadb6a01f3a67') in 0.129058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/resTypeOther.js
+  artifactKey: Guid(7f2cb31d31343443e928704709a19ca6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/resTypeOther.js using Guid(7f2cb31d31343443e928704709a19ca6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '336ab192f21dab48f2a5d11de27a85a3') in 0.009060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001596 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/Plugins/WXTouch.jslib
+  artifactKey: Guid(181a2b83a01be4385986be06d6f06c7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/Plugins/WXTouch.jslib using Guid(181a2b83a01be4385986be06d6f06c7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2231974c16eb7b44a2bc4dee6cf19049') in 0.018012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/conf.js
+  artifactKey: Guid(679c9d82770144f3cab88adfd53363ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/conf.js using Guid(679c9d82770144f3cab88adfd53363ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '226aeeb515ecc22c41f393414d63d8c8') in 0.031295 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/TextureEditor/Release/System.Buffers.xml
+  artifactKey: Guid(3e638173a276543a5b7f11c2942ce871) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/TextureEditor/Release/System.Buffers.xml using Guid(3e638173a276543a5b7f11c2942ce871) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '611fa05cb85906f5895e7f8329773fd2') in 0.012234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.008038 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/TextureEditor/Release/System.Numerics.Vectors.dll
+  artifactKey: Guid(a121dac91684848888ae8e527a7e9394) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/TextureEditor/Release/System.Numerics.Vectors.dll using Guid(a121dac91684848888ae8e527a7e9394) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '972933b03904902090a81eb604e9c781') in 0.044635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/Brotli/win_x86_64/vcruntime140.dll
+  artifactKey: Guid(e23a7460c65914b4995b078d7edfcd55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/Brotli/win_x86_64/vcruntime140.dll using Guid(e23a7460c65914b4995b078d7edfcd55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0210526dee2c5ceb027238c7f51b813b') in 0.037150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/resType.js
+  artifactKey: Guid(f0966c63358be4bbc8e169d020818057) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/resType.js using Guid(f0966c63358be4bbc8e169d020818057) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ba1c37dbb9ff18e9d721e88dbd51d749') in 0.035566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/game.json
+  artifactKey: Guid(d56bda0cfa37743a7bfa82e3a40dcbe1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/game.json using Guid(d56bda0cfa37743a7bfa82e3a40dcbe1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ad9930840f1e305bd7fb0d0983cb5e7a') in 0.024874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/WebGLTemplates/WXTemplate2022TJ/TemplateData/tuanjie-logo-light.png
+  artifactKey: Guid(4ffff93e234c4374aabfc4d691babcf8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WebGLTemplates/WXTemplate2022TJ/TemplateData/tuanjie-logo-light.png using Guid(4ffff93e234c4374aabfc4d691babcf8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '101b399a73d4bf56275961ebc5293ac1') in 0.024427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.008484 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/TextureEditor/Release/SixLabors.ImageSharp.dll
+  artifactKey: Guid(1e9dd2b8fa5a84c7b8d035d98c54cc52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/TextureEditor/Release/SixLabors.ImageSharp.dll using Guid(1e9dd2b8fa5a84c7b8d035d98c54cc52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8ee5d5957a1ec56607ce6b10f1ee8de5') in 0.037914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/TextureEditor/Node/astcenc-sse4.1.exe
+  artifactKey: Guid(e0d60c769ddf340d8bd8197a3cd3dc5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/TextureEditor/Node/astcenc-sse4.1.exe using Guid(e0d60c769ddf340d8bd8197a3cd3dc5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7fd6884a9b9dbca100d1799c0338e277') in 0.009841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/bluetooth/index.js
+  artifactKey: Guid(a8c1c69392a7e42edb14a401b62a7666) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/bluetooth/index.js using Guid(a8c1c69392a7e42edb14a401b62a7666) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0474405c903928a6ea5c8c668137a9cc') in 0.018341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/UDPSocket/index.js
+  artifactKey: Guid(eab88332a124e4eb5a0f18ec48c7e2c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/UDPSocket/index.js using Guid(eab88332a124e4eb5a0f18ec48c7e2c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '18f7fc349755db43d6bca6f092054862') in 0.009720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/WebGLTemplates/WXTemplate2022TJ/TemplateData/webgl-logo.png
+  artifactKey: Guid(5bccc83c213333647b3bd2114a57fc62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WebGLTemplates/WXTemplate2022TJ/TemplateData/webgl-logo.png using Guid(5bccc83c213333647b3bd2114a57fc62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dd6bcb5e6b22ab15d0bd73314bf023d4') in 0.006928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.009045 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/Plugins/wx-runtime-editor.dll
+  artifactKey: Guid(30bbdd4df4b1a43bb83ed8e59cc42c54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/Plugins/wx-runtime-editor.dll using Guid(30bbdd4df4b1a43bb83ed8e59cc42c54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5ef01f515f4dd159df5da18e4e73fbf6') in 0.063194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/open-data/render/image/button3.png
+  artifactKey: Guid(d0dbe922b31324ff9b69e56c39fb2908) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/open-data/render/image/button3.png using Guid(d0dbe922b31324ff9b69e56c39fb2908) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2422c950aa1b9694f46ff4fef1b783ca') in 0.074058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000669 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/Plugins/wx-runtime.dll
+  artifactKey: Guid(6708da74d31314f7e96085e884d8b693) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/Plugins/wx-runtime.dll using Guid(6708da74d31314f7e96085e884d8b693) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3f700d05685c0fafadc1012202c0f227') in 0.032722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/Plugins/dumper.jslib
+  artifactKey: Guid(dae845d21bfc9479cbd0cbe4e34ac070) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/Plugins/dumper.jslib using Guid(dae845d21bfc9479cbd0cbe4e34ac070) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3781e88dba2cd0c49c14910d064b5609') in 0.050363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/chat.js
+  artifactKey: Guid(06fc0494f232e44a78f785057870f799) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/unity-sdk/chat.js using Guid(06fc0494f232e44a78f785057870f799) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '774db1c2b6944fd64a6c259e160a0eff') in 0.031270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/WX-WASM-SDK-V2/Editor/TextureEditor/Release/System.Half.dll
+  artifactKey: Guid(859e4896a97d94a17b7da75fb59d4ede) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WX-WASM-SDK-V2/Editor/TextureEditor/Release/System.Half.dll using Guid(859e4896a97d94a17b7da75fb59d4ede) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b6a50aea7c0882b8619a42fea6fe500f') in 0.012718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 34.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7 unused Assets / (179.0 KB). Loaded Objects now: 4514.
+Memory consumption went from 195.1 MB to 194.9 MB.
+Total: 9.922775 ms (FindLiveObjects: 0.562250 ms CreateObjectMapping: 0.538500 ms MarkObjects: 8.535567 ms  DeleteObjects: 0.283879 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 256
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  3.070 seconds
+Refreshing native plugins compatible for Editor in 17.46 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.912 seconds
+Domain Reload Profiling: 7982ms
+	BeginReloadAssembly (874ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (59ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (305ms)
+	RebuildCommonClasses (202ms)
+	RebuildNativeTypeToScriptingClass (54ms)
+	initialDomainReloadingComplete (120ms)
+	LoadAllAssembliesAndSetupDomain (1817ms)
+		LoadAssemblies (1303ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (936ms)
+			TypeCache.Refresh (772ms)
+				TypeCache.ScanAssembly (697ms)
+			ScanForSourceGeneratedMonoScriptInfo (111ms)
+			ResolveRequiredComponents (44ms)
+	FinalizeReload (4914ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2496ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (25ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (224ms)
+			ProcessInitializeOnLoadAttributes (2076ms)
+			ProcessInitializeOnLoadMethodAttributes (145ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (73ms)
+Refreshing native plugins compatible for Editor in 16.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4083 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 84 unused Assets / (221.8 KB). Loaded Objects now: 4519.
+Memory consumption went from 256.6 MB to 256.4 MB.
+Total: 10.515842 ms (FindLiveObjects: 0.577930 ms CreateObjectMapping: 0.595273 ms MarkObjects: 8.835004 ms  DeleteObjects: 0.505046 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 256
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 14.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7 unused Assets / (181.5 KB). Loaded Objects now: 4519.
+Memory consumption went from 193.6 MB to 193.5 MB.
+Total: 10.778670 ms (FindLiveObjects: 0.548398 ms CreateObjectMapping: 0.564192 ms MarkObjects: 9.313212 ms  DeleteObjects: 0.350771 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 15.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7 unused Assets / (184.4 KB). Loaded Objects now: 4519.
+Memory consumption went from 193.2 MB to 193.1 MB.
+Total: 14.725504 ms (FindLiveObjects: 0.509975 ms CreateObjectMapping: 1.715384 ms MarkObjects: 11.735136 ms  DeleteObjects: 0.763197 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7 unused Assets / (181.6 KB). Loaded Objects now: 4519.
+Memory consumption went from 193.3 MB to 193.1 MB.
+Total: 6.354077 ms (FindLiveObjects: 0.454270 ms CreateObjectMapping: 0.469280 ms MarkObjects: 5.208360 ms  DeleteObjects: 0.220509 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 256
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 11.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7 unused Assets / (181.3 KB). Loaded Objects now: 4519.
+Memory consumption went from 193.3 MB to 193.1 MB.
+Total: 7.320749 ms (FindLiveObjects: 0.428755 ms CreateObjectMapping: 0.483104 ms MarkObjects: 6.157446 ms  DeleteObjects: 0.249896 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  graphicsApiMask: 256 -> 2048
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7 unused Assets / (181.5 KB). Loaded Objects now: 4519.
+Memory consumption went from 193.3 MB to 193.1 MB.
+Total: 6.333085 ms (FindLiveObjects: 0.440806 ms CreateObjectMapping: 0.456167 ms MarkObjects: 5.160544 ms  DeleteObjects: 0.273875 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 19.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7 unused Assets / (181.3 KB). Loaded Objects now: 4519.
+Memory consumption went from 193.3 MB to 193.1 MB.
+Total: 8.524772 ms (FindLiveObjects: 0.511674 ms CreateObjectMapping: 0.502257 ms MarkObjects: 7.240536 ms  DeleteObjects: 0.268351 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  colorSpace: 0 -> 1
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:graphics/active-color-space: 02000000000000000000000000000000 -> 03000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 191.462939 seconds.
+  path: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/images/background.jpg
+  artifactKey: Guid(307b792793e6746e588b920879c1b8c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WX-WASM-SDK-V2/Runtime/wechat-default/images/background.jpg using Guid(307b792793e6746e588b920879c1b8c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4812acbea82a3b924ca41b54dc3bd2b6') in 0.199591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 15.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7 unused Assets / (179.3 KB). Loaded Objects now: 4519.
+Memory consumption went from 193.2 MB to 193.0 MB.
+Total: 6.360640 ms (FindLiveObjects: 0.479367 ms CreateObjectMapping: 0.415465 ms MarkObjects: 5.249347 ms  DeleteObjects: 0.214916 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 8.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7 unused Assets / (181.6 KB). Loaded Objects now: 4519.
+Memory consumption went from 193.4 MB to 193.2 MB.
+Total: 8.709955 ms (FindLiveObjects: 0.441674 ms CreateObjectMapping: 0.518927 ms MarkObjects: 7.457155 ms  DeleteObjects: 0.290353 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 34.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7 unused Assets / (181.6 KB). Loaded Objects now: 4519.
+Memory consumption went from 193.4 MB to 193.2 MB.
+Total: 6.546913 ms (FindLiveObjects: 0.463587 ms CreateObjectMapping: 0.490457 ms MarkObjects: 5.372654 ms  DeleteObjects: 0.218446 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2098.818995 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4fe85251aa2e89732c359432baa2c3') in 0.026591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
